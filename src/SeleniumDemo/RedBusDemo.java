@@ -8,7 +8,7 @@ public class RedBusDemo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 	    
-		System.setProperty("webdriver.chrome.driver", "D:\\SoftwareCenterApplications\\chromedriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "location of the driver ");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.redbus.in/");
