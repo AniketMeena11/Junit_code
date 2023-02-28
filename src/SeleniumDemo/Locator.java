@@ -14,7 +14,7 @@ class Locator {
 
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {
-		System.setProperty("webdriver.chrome.driver", "D:\\SoftwareCenterApplications\\chromedriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "Location of the driver ");
 	    driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.mycontactform.com/index.php?s=1/");
@@ -37,7 +37,7 @@ class Locator {
 		
 		
 		driver.findElement(By.id("user")).sendKeys("aniketvds4");
-		driver.findElement(By.id("pass")).sendKeys("7509580494");
+		driver.findElement(By.id("pass")).sendKeys("passward");
 		driver.findElement(By.className("btn_log")).click();
 		
 	}
