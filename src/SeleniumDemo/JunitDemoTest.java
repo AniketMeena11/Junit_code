@@ -15,7 +15,7 @@ class JunitDemoTest {
     static WebDriver driver ;
 	@BeforeAll
 	static void setUp() throws Exception {
-		System.setProperty("webdriver.chrome.driver", "D:\\SoftwareCenterApplications\\chromedriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "Location of the driver.. ");
 	    driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.redbus.in/");
