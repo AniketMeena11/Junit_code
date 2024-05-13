@@ -1,5 +1,5 @@
 This Project contains the small Java file in which I practic the selenium with JUnit Framework.
 It consist of several task:
-How handle alert in selenium.
-How hover by the help of selenium.
-How read excel file.
+1. How handle alert in selenium.
+2. How hover by the help of selenium.
+3. How read excel file.
